@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kesar Mithai Ghar – Fresh Desi Ghee Sweets in Sitapur</title>
+<meta name="description" content="Fresh desi ghee mithai, made every morning since 1994 on Main Bazaar Road, Sitapur. Order on WhatsApp or call.">
+<meta name="theme-color" content="#F6EFE2">
+<meta property="og:title" content="Kesar Mithai Ghar – Sitapur">
+<meta property="og:description" content="Desi ghee sweets made fresh every morning since 1994.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23D9822B'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='%23FBF5E8' font-family='serif'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6EFE2;--card:#FBF5E8;--ink:#2B2622;--accent:#D9822B;--deep:#8A3B12;--leaf:#4F6B3A;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Manrope,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px}
+h1,h2,h3{font-family:Fraunces,serif;line-height:1.15}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:100px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:50px;font-weight:800;text-decoration:none;font-size:15px;border:2px solid var(--ink)}
+.btn.fill{background:var(--leaf);border-color:var(--leaf);color:#FBF5E8}
+.btn.line{background:transparent;color:var(--ink)}
+.btn.sm{padding:8px 14px;font-size:13px}
+.eyebrow{font-weight:800;letter-spacing:.14em;font-size:12px;text-transform:uppercase;color:var(--deep);display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.petal{width:22px;height:22px;flex:none}
+h2{font-size:clamp(30px,5vw,48px);margin-bottom:28px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid #e3d6bd;padding-top:env(safe-area-inset-top,0)}
+.hbar{display:flex;align-items:center;gap:16px;padding:12px 20px;max-width:1160px;margin:0 auto}
+.logo{font-family:Fraunces,serif;font-weight:700;font-size:22px;text-decoration:none;display:flex;align-items:center;gap:8px;margin-right:auto}
+nav{display:flex;gap:22px}
+nav a{text-decoration:none;font-weight:600;font-size:15px}
+nav a:hover{color:var(--deep)}
+.burger{display:none;background:none;border:2px solid var(--ink);border-radius:10px;padding:6px 10px;font-size:20px;cursor:pointer;color:var(--ink)}
+/* hero */
+.hero{padding:70px 0 90px;position:relative;overflow:hidden}
+.hgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.hero h1{font-size:clamp(36px,6vw,66px);margin-bottom:20px}
+.hero h1 em{color:var(--deep)}
+.proof{font-weight:600;margin-bottom:28px;max-width:520px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.himg{position:relative;aspect-ratio:4/5;border-radius:200px 200px 24px 24px;overflow:hidden;background:var(--accent);box-shadow:14px 14px 0 var(--deep)}
+.himg img{width:100%;height:100%;object-fit:cover}
+.bg-petals{position:absolute;right:-60px;top:-50px;width:300px;opacity:.18;pointer-events:none}
+/* trust */
+.trust{background:var(--ink);color:var(--card);padding:44px 0}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:left}
+.tgrid b{font-family:Fraunces,serif;font-size:40px;color:var(--accent);display:block;line-height:1}
+.tgrid span{font-size:14px}
+/* services */
+.sgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.sc{background:var(--card);border:1.5px solid #e3d6bd;border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:10px;grid-column:span 2}
+.sc.big{grid-column:span 3;background:var(--accent);color:var(--ink);border-color:var(--accent)}
+.sc.wide{grid-column:span 4}
+.sc h3{font-size:22px}
+.sc p{font-size:15px;flex:1}
+.price{font-weight:800;color:var(--deep)}
+.sc.big .price{color:var(--ink)}
+.ico{width:44px;height:44px}
+/* about */
+.about{background:var(--card)}
+.agrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}
+.avatar{width:150px;height:150px;border-radius:50%;background:var(--deep);color:var(--card);display:grid;place-items:center;font-family:Fraunces,serif;font-size:56px;margin-bottom:18px}
+.about p{margin-bottom:14px}
+.about ul{list-style:none;margin-top:20px;display:grid;gap:10px}
+.about li{display:flex;gap:10px;font-weight:600}
+/* gallery */
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
+.ggrid figure{border-radius:var(--r);overflow:hidden;background:var(--accent);position:relative}
+.ggrid figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+.ggrid figure:nth-child(4){grid-row:span 2}
+.ggrid figure:nth-child(5){grid-column:span 2}
+.ggrid img{width:100%;height:100%;object-fit:cover}
+.ggrid figcaption{position:absolute;left:10px;bottom:10px;background:var(--bg);padding:3px 10px;border-radius:20px;font-size:12px;font-weight:800}
+/* testimonials */
+.tg{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:20px;align-items:start}
+.tc{background:var(--card);border-radius:var(--r);padding:26px;border:1.5px solid #e3d6bd}
+.tc:nth-child(2){margin-top:40px}
+.stars{display:flex;gap:2px;margin-bottom:10px}
+.stars svg{width:18px;height:18px;fill:var(--accent)}
+.tc footer{margin-top:14px;font-weight:800;font-size:14px;background:none;border:0;position:static;padding:0}
+.tc footer span{font-weight:400;display:block}
+/* pricing */
+.pl{max-width:720px;list-style:none}
+.pl li{display:flex;align-items:baseline;gap:10px;padding:14px 0;border-bottom:1px dashed #b9a57d}
+.pl li i{flex:1;border-bottom:2px dotted #c9b78f;transform:translateY(-4px)}
+.pl b{white-space:nowrap}
+.note{margin-top:18px;font-size:14px}
+/* contact */
+.cgrid{display:grid;grid-template-columns:1fr 1.1fr;gap:40px}
+.map{width:100%;height:100%;min-height:360px;border:0;border-radius:var(--r);background:#e3d6bd}
+.hours{width:100%;border-collapse:collapse;margin:14px 0 22px}
+.hours td{padding:8px 0;border-bottom:1px solid #e3d6bd}
+.hours td:last-child{text-align:right;font-weight:700}
+.cm{display:grid;gap:8px;margin-bottom:20px}
+.cm a{font-weight:700}
+/* footer */
+.foot{background:var(--ink);color:var(--card);padding:70px 0 40px}
+.foot a{color:var(--card)}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr;gap:40px}
+.fl{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}
+.big-wa{display:block;text-align:center;background:var(--leaf);color:#FBF5E8;font-family:Fraunces,serif;font-size:clamp(22px,4vw,34px);padding:26px;border-radius:var(--r);text-decoration:none;margin:36px 0 26px}
+.small{font-size:13px;opacity:.85;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.bar{display:none}
+@media(max-width:1080px){.sc,.sc.big,.sc.wide{grid-column:span 3}.tg{grid-template-columns:1fr 1fr}}
+@media(max-width:820px){
+section{padding:72px 0}
+.hgrid,.agrid,.cgrid,.fgrid{grid-template-columns:1fr}
+.himg{max-width:380px}
+.tgrid{grid-template-columns:1fr 1fr}
+.ggrid{grid-template-columns:1fr 1fr}
+.ggrid figure:nth-child(n){grid-column:auto;grid-row:auto}
+.ggrid figure:nth-child(1){grid-column:span 2}
+.tg{grid-template-columns:1fr}.tc:nth-child(2){margin-top:0}
+.burger{display:block}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 20px;border-bottom:1px solid #e3d6bd}
+nav.open{display:flex}
+.hbtns{display:none}
+}
+@media(max-width:768px){
+body{padding-bottom:calc(68px + env(safe-area-inset-bottom,0))}
+.bar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0));background:var(--bg);border-top:1px solid #e3d6bd}
+.bar a{justify-content:center}
+}
+@media(max-width:520px){
+.sgrid{grid-template-columns:1fr}.sc,.sc.big,.sc.wide{grid-column:auto}
+.tgrid b{font-size:32px}
+.hero{padding-top:40px}
+.cta .btn{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="marigold" viewBox="0 0 100 100"><g fill="#D9822B"><ellipse cx="50" cy="20" rx="12" ry="20"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(45 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(90 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(135 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(180 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(225 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(270 50 50)"/><ellipse cx="50" cy="20" rx="12" ry="20" transform="rotate(315 50 50)"/></g><circle cx="50" cy="50" r="13" fill="#8A3B12"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.7 7.2L12 17.8 5.6 21.5l1.7-7.2L2 9.6 9 9z"/></symbol>
+</defs>
+</svg>
+
+<header>
+<div class="hbar">
+<a class="logo" href="#top"><svg class="petal" width="26" height="26"><use href="#marigold"/></svg>Kesar Mithai Ghar</a>
+<nav id="nav" aria-label="Main">
+<a href="#sweets">Sweets</a><a href="#about">Our Story</a><a href="#reviews">Reviews</a><a href="#prices">Prices</a><a href="#contact">Visit</a>
+</nav>
+<div class="hbtns" style="display:flex;gap:8px">
+<a class="btn sm line" href="tel:+919876500000">Call</a>
+<a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%20Kesar%20Mithai%20Ghar%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+<button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-top:70px">
+<svg class="bg-petals" viewBox="0 0 100 100"><use href="#marigold"/></svg>
+<div class="wrap hgrid">
+<div>
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Main Bazaar Road, Sitapur</div>
+<h1>Pure desi ghee mithai, made fresh every morning near <em>Clock Tower</em></h1>
+<p class="proof">Trusted by Sitapur families for weddings, festivals and everyday sweet cravings since 1994. Rated 4.8 by 600+ neighbours.</p>
+<div class="cta">
+<a class="btn fill" href="https://wa.me/919876500000?text=Hello%20Kesar%20Mithai%20Ghar%2C%20I%20saw%20your%20website%20and%20would%20like%20to%20order%20sweets." target="_blank" rel="noopener">Order on WhatsApp</a>
+<a class="btn line" href="tel:+919876500000">Call the shop</a>
+</div>
+</div>
+<div class="himg"><img src="https://images.unsplash.com/photo-1666190092159-3171cf0fbb12?w=800&auto=format&fit=crop" alt="Assorted Indian sweets on a plate" fetchpriority="high" onerror="this.style.display='none'"></div>
+</div>
+</section>
+
+<div class="trust"><div class="wrap tgrid">
+<div><b>32</b><span>years on the same bazaar corner</span></div>
+<div><b>100%</b><span>pure desi ghee, no vanaspati</span></div>
+<div><b>5 AM</b><span>first batch out of the kadhai</span></div>
+<div><b>600+</b><span>happy Google reviews</span></div>
+</div></div>
+
+<section id="sweets"><div class="wrap">
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Our Sweets</div>
+<h2>What comes out of our kadhai</h2>
+<div class="sgrid">
+<article class="sc big"><svg class="ico" viewBox="0 0 44 44"><path d="M22 4l16 18-16 18L6 22z" fill="#2B2622"/></svg><h3>Kaju Katli</h3><p>Thin, silver-topped diamonds made from fresh cashew paste. Melts the moment it touches your tongue.</p><div class="price">₹880 / kg</div><a class="btn sm line" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20order%20Kaju%20Katli.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+<article class="sc big" style="background:var(--card);color:var(--ink);border-color:#e3d6bd"><svg class="ico" viewBox="0 0 44 44"><circle cx="22" cy="22" r="16" fill="#D9822B"/></svg><h3>Motichoor Laddu</h3><p>Tiny boondi pearls, soaked in kesar syrup and pressed by hand. Our most ordered sweet for pujas.</p><div class="price">₹520 / kg</div><a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20order%20Motichoor%20Laddu.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+<article class="sc"><svg class="ico" viewBox="0 0 44 44"><ellipse cx="22" cy="22" rx="17" ry="13" fill="#8A3B12"/></svg><h3>Gulab Jamun</h3><p>Soft khoya rounds, warm syrup, served hot after 4 PM.</p><div class="price">₹400 / kg</div><a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20order%20Gulab%20Jamun.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+<article class="sc"><svg class="ico" viewBox="0 0 44 44"><path d="M8 30c0-14 12-22 22-14s-4 22-14 14" fill="none" stroke="#D9822B" stroke-width="5"/></svg><h3>Hot Jalebi</h3><p>Crisp, golden and fried in ghee. Ready from 6 AM with fresh rabri.</p><div class="price">₹280 / kg</div><a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20order%20Jalebi%20for%20tomorrow%20morning." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+<article class="sc"><svg class="ico" viewBox="0 0 44 44"><rect x="8" y="12" width="28" height="22" rx="4" fill="#4F6B3A"/></svg><h3>Besan Laddu</h3><p>Slow-roasted gram flour with ghee, cardamom and almonds.</p><div class="price">₹600 / kg</div><a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20order%20Besan%20Laddu.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+<article class="sc wide"><svg class="ico" viewBox="0 0 44 44"><rect x="6" y="14" width="32" height="22" rx="3" fill="#D9822B"/><rect x="6" y="14" width="32" height="6" fill="#8A3B12"/></svg><h3>Festival &amp; Wedding Gift Boxes</h3><p>Assorted sweets packed in a sturdy box with your family name or message on the lid. Order 2 days ahead for Diwali, Raksha Bandhan and shaadi season, and we will deliver within Sitapur.</p><div class="price">From ₹750 / box</div><a class="btn sm fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20want%20to%20book%20gift%20boxes%20for%20an%20upcoming%20occasion.%20Please%20share%20details." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+</div></div></section>
+
+<section class="about" id="about"><div class="wrap agrid">
+<div><div class="avatar" aria-hidden="true">RG</div><h3 style="font-size:26px">Ramesh Gupta</h3><p style="font-weight:600">Owner, second generation</p></div>
+<div>
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Our Story</div>
+<h2>My father's kadhai, still lit</h2>
+<p>My father, Shri Hari Prasad Gupta, started this shop in 1994 with one kadhai and a wooden counter. I was twelve and my job was to stir the sugar syrup. I still remember the smell of kesar on Diwali night, with a queue going all the way to the clock tower.</p>
+<p>Today my son helps at the counter, but the recipe has not changed. We use the same ghee supplier, the same early start and the same rule: if a batch is not right, it does not go in the box.</p>
+<ul>
+<li><svg class="petal"><use href="#marigold"/></svg>100% pure desi ghee, never vanaspati</li>
+<li><svg class="petal"><use href="#marigold"/></svg>Made fresh daily, nothing kept overnight</li>
+<li><svg class="petal"><use href="#marigold"/></svg>Taste before you buy, always</li>
+<li><svg class="petal"><use href="#marigold"/></svg>Home delivery within Sitapur town</li>
+<li><svg class="petal"><use href="#marigold"/></svg>Sugar-light options for elders</li>
+</ul>
+</div></div></section>
+
+<section id="gallery"><div class="wrap">
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>From the Shop</div>
+<h2>A look at the counter</h2>
+<div class="ggrid">
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1666190092159-3171cf0fbb12?w=800&auto=format&fit=crop" alt="Indian sweets assortment" onerror="this.style.display='none'"><figcaption>Assorted mithai</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop" alt="Fresh Indian snacks" onerror="this.style.display='none'"><figcaption>Fresh daily</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&auto=format&fit=crop" alt="Traditional sweets" onerror="this.style.display='none'"><figcaption>Festival trays</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1606471191009-63994c53433b?w=800&auto=format&fit=crop" alt="Gulab jamun in syrup" onerror="this.style.display='none'"><figcaption>Gulab jamun</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&auto=format&fit=crop" alt="Indian sweets box" onerror="this.style.display='none'"><figcaption>Gift boxes</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop" alt="Indian dessert" onerror="this.style.display='none'"><figcaption>Morning batch</figcaption></figure>
+</div></div></section>
+
+<section id="reviews" style="background:var(--card)"><div class="wrap">
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Neighbours Say</div>
+<h2>Words from the bazaar</h2>
+<div class="tg">
+<blockquote class="tc"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>"Ordered 15 kg of motichoor laddu for my daughter's shaadi at 8 PM and it reached the hall by 10 the next morning, still soft. Not one guest complained."<footer>Sunita Verma<span>Civil Lines</span></footer></blockquote>
+<blockquote class="tc"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>"Been taking jalebi from here every Sunday since college. Same taste, same guy at the counter."<footer>Amit Tiwari<span>Rajendra Nagar</span></footer></blockquote>
+<blockquote class="tc"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>"Asked for kaju katli with less sugar for my dad. They made a special batch and did not charge extra."<footer>Neha Agrawal<span>Khairabad Road</span></footer></blockquote>
+</div></div></section>
+
+<section id="prices"><div class="wrap">
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Price List</div>
+<h2>Simple, honest rates</h2>
+<ul class="pl">
+<li>Kaju Katli<i></i><b>₹880 / kg</b></li>
+<li>Motichoor Laddu<i></i><b>₹520 / kg</b></li>
+<li>Besan Laddu<i></i><b>₹600 / kg</b></li>
+<li>Gulab Jamun<i></i><b>₹400 / kg</b></li>
+<li>Hot Jalebi<i></i><b>₹280 / kg</b></li>
+<li>Milk Barfi<i></i><b>₹560 / kg</b></li>
+<li>Gift Box (1 kg assorted)<i></i><b>₹750</b></li>
+<li>Home delivery in Sitapur<i></i><b>Free above ₹1,000</b></li>
+</ul>
+<p class="note">Rates may change slightly during festival weeks. <a href="https://wa.me/919876500000?text=Hello%2C%20please%20share%20today%27s%20sweet%20rates." target="_blank" rel="noopener"><b>Ask today's rate on WhatsApp</b></a></p>
+</div></section>
+
+<section id="contact" style="background:var(--card)"><div class="wrap">
+<div class="eyebrow"><svg class="petal"><use href="#marigold"/></svg>Visit Us</div>
+<h2>Find us near the Clock Tower</h2>
+<div class="cgrid">
+<div>
+<p><b>Kesar Mithai Ghar</b><br>Main Bazaar Road, Near Clock Tower,<br>Sitapur, Uttar Pradesh 261001</p>
+<table class="hours"><tbody>
+<tr><td>Monday – Saturday</td><td>5:30 AM – 10:00 PM</td></tr>
+<tr><td>Sunday</td><td>6:00 AM – 11:00 PM</td></tr>
+<tr><td>Festival weeks</td><td>5:00 AM – 11:30 PM</td></tr>
+</tbody></table>
+<div class="cm">
+<a href="tel:+919876500000">Call: +91 98765 00000</a>
+<a href="https://wa.me/919876500000?text=Hello%20Kesar%20Mithai%20Ghar%2C%20I%20have%20a%20question." target="_blank" rel="noopener">WhatsApp: +91 98765 00000</a>
+<a href="mailto:hello@kesarmithaighar.in">hello@kesarmithaighar.in</a>
+</div>
+<div class="cta"><a class="btn fill" href="https://wa.me/919876500000?text=Hello%2C%20I%20would%20like%20to%20visit.%20Please%20share%20the%20location%20pin." target="_blank" rel="noopener">Get location on WhatsApp</a><a class="btn line" href="tel:+919876500000">Call</a></div>
+</div>
+<iframe class="map" title="Map to Kesar Mithai Ghar" loading="lazy" src="https://maps.google.com/maps?q=Main%20Bazaar%20Road%2C%20Clock%20Tower%2C%20Sitapur%2C%20Uttar%20Pradesh%20261001&output=embed"></iframe>
+</div></div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+<div class="fgrid">
+<div><h3 style="font-size:28px">Kesar Mithai Ghar</h3><p>Sweet since 1994, on Main Bazaar Road, Sitapur.</p></div>
+<div><b>Quick links</b><div class="fl"><a href="#sweets">Sweets</a><a href="#about">Our Story</a><a href="#reviews">Reviews</a><a href="#prices">Prices</a><a href="#contact">Visit</a></div></div>
+</div>
+<a class="big-wa" href="https://wa.me/919876500000?text=Hello%20Kesar%20Mithai%20Ghar%2C%20I%20want%20to%20order%20sweets." target="_blank" rel="noopener">Order sweets on WhatsApp →</a>
+<div class="small"><span>© <span id="yr">2026</span> Kesar Mithai Ghar. All rights reserved.</span><span>built with ❤️ by 21.coders</span></div>
+</div></footer>
+
+<div class="bar">
+<a class="btn line" href="tel:+919876500000">Call</a>
+<a class="btn fill" href="https://wa.me/919876500000?text=Hello%20Kesar%20Mithai%20Ghar%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+</script>
+</body>
+</html>
